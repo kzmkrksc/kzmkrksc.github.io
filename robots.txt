@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kzmkrksc.github.io/sitemap.xml
