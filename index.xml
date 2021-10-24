@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Personal Blog</title>
+    <title>Kzmkrksc&#39;s Blog</title>
     <link>https://kzmkrksc.github.io/</link>
-    <description>Recent content on Personal Blog</description>
+    <description>Recent content on Kzmkrksc&#39;s Blog</description>
     <image>
       <url>https://kzmkrksc.github.io/papermod-cover.png</url>
       <link>https://kzmkrksc.github.io/papermod-cover.png</link>
@@ -11,12 +11,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 24 Oct 2021 02:50:28 +0300</lastBuildDate><atom:link href="https://kzmkrksc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://kzmkrksc.github.io/post/test-2/</link>
+      <title>Pretty-printing XML with JS</title>
+      <link>https://kzmkrksc.github.io/post/prettify-xml-with-js/</link>
       <pubDate>Sun, 24 Oct 2021 02:50:28 +0300</pubDate>
       
-      <guid>https://kzmkrksc.github.io/post/test-2/</guid>
-      <description>This is another test post.</description>
+      <guid>https://kzmkrksc.github.io/post/prettify-xml-with-js/</guid>
+      <description>Prettify XML strings with JS and XSLT transformations</description>
     </item>
     
     <item>
