@@ -3,7 +3,7 @@ title: "Test"
 date: 2021-10-24T02:50:28+03:00
 description: ""
 tags: ["test"]
-author: ""
+author: "kzmkrksc"
 showToc: true
 TocOpen: false
 draft: false
