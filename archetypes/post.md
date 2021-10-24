@@ -6,13 +6,12 @@ tags: [""]
 author: ""
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "" # image path/url
     alt: "" # alt text
