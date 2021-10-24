@@ -1,5 +1,5 @@
 baseURL: "https://kzmkrksc.github.io/"
-title: Personal Blog
+title: Kzmkrksc's Blog
 paginate: 5
 theme: hugo-PaperMod
 
@@ -30,9 +30,6 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
 
 
 outputs:
@@ -44,7 +41,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Personal Blog for sharing experiences/practices about coding"
-    author: Kzmkrksc
+    author: kzmkrksc
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: dark
@@ -84,7 +81,7 @@ params:
           url: "https://linkedin.com/in/ahmet-kazim-karakuscu"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        URL: "https://github.com/kzmkrksc/kzmkrksc.github.io/tree/master/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -109,14 +106,16 @@ params:
     #     hiddenInList: true # hide on list pages and home
     #     hiddenInSingle: true # hide on single page
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+    fuseOpts:
+         isCaseSensitive: false
+         shouldSort: true
+         location: 0
+         distance: 1000
+         threshold: 0.4
+         minMatchCharLength: 0
+         keys: ["title", "permalink", "summary", "content"]
+
+
 
 taxonomies:
     category: categories
