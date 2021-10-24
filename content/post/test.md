@@ -20,4 +20,8 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-This is a test post
+# This is a test post
+
+This is a test content.
+
+---
