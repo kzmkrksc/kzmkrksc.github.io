@@ -94,10 +94,10 @@ params:
     #     google:
     #         SiteVerificationTag: "XYZabc"
 
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
+    #assets:
+    #     favicon: "/static/img/favicon.ico"
+    #     favicon16x16: "/static/img/"
+    #     favicon32x32: "/static/img"
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
 
