@@ -23,5 +23,7 @@ cover:
 # This is a test post
 
 This is a test content.
+This is another test content.
+
 
 ---
