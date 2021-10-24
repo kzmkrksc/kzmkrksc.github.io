@@ -2,7 +2,7 @@
 title: "Test"
 date: 2021-10-24T02:50:28+03:00
 description: ""
-tags: [""]
+tags: ["test"]
 author: ""
 showToc: true
 TocOpen: false
