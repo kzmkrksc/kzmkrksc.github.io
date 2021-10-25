@@ -1,7 +1,7 @@
 ---
 title: "Bootstrap Login Page with Floating Labels"
 date: 2021-10-24T02:50:28+03:00
-description: "Prettify XML strings with JS and XSLT transformations"
+description: "Creating a Bootstrap login form with floating labels using HTML, CSS and JS."
 tags: ["Javascript", "HTML", "CSS"]
 author: "kzmkrksc"
 showToc: true
