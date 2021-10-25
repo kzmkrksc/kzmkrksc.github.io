@@ -2,7 +2,7 @@
 title: "Bootstrap Login Page with Floating Labels"
 date: 2021-10-24T02:50:28+03:00
 description: "Prettify XML strings with JS and XSLT transformations"
-tags: ["Javascript", "HTML", "CSS", "Bootstrap"]
+tags: ["Javascript", "HTML", "CSS"]
 author: "kzmkrksc"
 showToc: true
 TocOpen: false
@@ -13,11 +13,11 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 searchHidden: false
 cover:
-	image: "" # image path/url
-	alt: "" # alt text
-	caption: "" # display caption under cover
-	relative: false # when using page bundles set this to true
-	hidden: true # only hide on current single page
+    image: "" # image path/url
+    alt: "" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
 
 # Bootstrap Login Page with Floating Labels
@@ -32,37 +32,37 @@ Here I will share a simple pen that I have worked in my leisure times. This pen 
 
 ```html
 <div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-login">
-                <div class="panel-heading">
-                    <div class="panel-title text-center">Login</div>
-                    <hr>
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="login-form" class="col-lg-offset-1 col-lg-10" action="" method="post" role="form" style="display: block;">
-                                <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" required placeholder=" ">
-                                    <label class="form-control-placeholder" for="username">Username</label>
-                                </div>
-                                <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" required placeholder=" ">
-                                    <label class="form-control-placeholder" for="password">Password</label>
-                                </div>
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <button type="submit" name="login-submit" id="login-submit" tabindex="3" class="form-control btn btn-login" value="LOGIN"><i class="fas fa-sign-in-alt"></i> Login</button>
-                                </div>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="panel panel-login">
+				<div class="panel-heading">
+					<div class="panel-title text-center">Login</div>
+					<hr>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form id="login-form" class="col-lg-offset-1 col-lg-10" action="" method="post" role="form" style="display: block;">
+								<div class="form-group input-group">
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
+									<input type="text" name="username" id="username" tabindex="1" class="form-control" required placeholder=" ">
+									<label class="form-control-placeholder" for="username">Username</label>
+								</div>
+								<div class="form-group input-group">
+									<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+									<input type="password" name="password" id="password" tabindex="2" class="form-control" required placeholder=" ">
+									<label class="form-control-placeholder" for="password">Password</label>
+								</div>
+								<div class="col-sm-6 col-sm-offset-3">
+									<button type="submit" name="login-submit" id="login-submit" tabindex="3" class="form-control btn btn-login" value="LOGIN"><i class="fas fa-sign-in-alt"></i> Login</button>
+								</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 ```
 
@@ -179,38 +179,38 @@ However this particular action might not work well in other browsers. It is requ
 
 ```html
 <div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-login">
-                <div class="panel-heading">
-                    <div class="panel-title text-center">Login</div>
-                    <hr>
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="login-form" class="col-lg-offset-1 col-lg-10" action="" method="post" role="form" style="display: block;">
-                                <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" required placeholder=" ">
-                                    <label class="form-control-placeholder" for="username">Username</label>
-                                </div>
-                                <div class="form-group input-group">
-                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" required placeholder=" ">
-                                    <label class="form-control-placeholder" for="password">Password</label>
-                                </div>
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <button type="submit" name="login-submit" id="login-submit" tabindex="3" class="form-control btn btn-login" value="LOGIN"><i class="fas fa-sign-in-alt"></i> Login</button>
-                                </div>
-                            </form>
-                        </div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="panel panel-login">
+				<div class="panel-heading">
+					<div class="panel-title text-center">Login</div>
+					<hr>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form id="login-form" class="col-lg-offset-1 col-lg-10" action="" method="post" role="form" style="display: block;">
+								<div class="form-group input-group">
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
+									<input type="text" name="username" id="username" tabindex="1" class="form-control" required placeholder=" ">
+									<label class="form-control-placeholder" for="username">Username</label>
+								</div>
+								<div class="form-group input-group">
+									<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+									<input type="password" name="password" id="password" tabindex="2" class="form-control" required placeholder=" ">
+									<label class="form-control-placeholder" for="password">Password</label>
+								</div>
+								<div class="col-sm-6 col-sm-offset-3">
+									<button type="submit" name="login-submit" id="login-submit" tabindex="3" class="form-control btn btn-login" value="LOGIN"><i class="fas fa-sign-in-alt"></i> Login</button>
+								</div>
+							</form>
+						</div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 ```
@@ -229,9 +229,9 @@ CSS:
   padding-bottom: 1em;
   background-color: #fafafa;
   -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
-    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+	0 1px 3px 1px rgba(60, 64, 67, 0.15);
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
-    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+	0 1px 3px 1px rgba(60, 64, 67, 0.15);
 }
 
 .panel-login > .panel-heading hr {
@@ -241,16 +241,16 @@ CSS:
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(
-    left,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.15),
-    rgba(0, 0, 0, 0)
+	left,
+	rgba(0, 0, 0, 0),
+	rgba(0, 0, 0, 0.15),
+	rgba(0, 0, 0, 0)
   );
   background-image: -moz-linear-gradient(
-    left,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.15),
-    rgba(0, 0, 0, 0)
+	left,
+	rgba(0, 0, 0, 0),
+	rgba(0, 0, 0, 0.15),
+	rgba(0, 0, 0, 0)
   );
 }
 .input-group {
@@ -261,11 +261,11 @@ CSS:
 .form-group input[type="password"] {
   height: 45px;
   border: 1px solid #ddd;
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-    display: block;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
   font-size: 16px;
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
@@ -285,7 +285,7 @@ CSS:
   height: auto;
   font-weight: normal;
   border-color: #ccc;
-    color: #008080;
+	color: #008080;
   background-color: #fff;
   margin-top: 25px;
   transition: all 0.1s ease;
@@ -293,9 +293,9 @@ CSS:
 .btn-login:hover {
   border-color: #66afe9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(102, 175, 233, 0.6);
+	0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(102, 175, 233, 0.6);
+	0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control-placeholder {
   pointer-events: none;
@@ -313,19 +313,19 @@ CSS:
 input:focus + label,
 input + label.label-animated {
  font-size: 95%;
-     transform: translatey(-2.5em);
-     opacity: 1;
+	 transform: translatey(-2.5em);
+	 opacity: 1;
 }
 
 input:-webkit-autofill + label {
  font-size: 95%;
-     transform: translateY(-2.5em);
-     opacity: 1;
+	 transform: translateY(-2.5em);
+	 opacity: 1;
 }
 input:not(:placeholder-shown) + label {
  font-size: 95%;
-     transform: translateY(-2.5em);
-     opacity: 1;
+	 transform: translateY(-2.5em);
+	 opacity: 1;
 }
 
 ```
@@ -334,14 +334,14 @@ And finally JS:
 ```js
 $(function () {  
   $(".form-group input").on("checkval", function () {
-    let label = $(this).next("label");
-    if(this.value !== "") {
-      label.addClass("label-animated");
-    } else {
-      label.removeClass("label-animated");
-    }
+	let label = $(this).next("label");
+	if(this.value !== "") {
+	  label.addClass("label-animated");
+	} else {
+	  label.removeClass("label-animated");
+	}
   }).on("keyup", function () {
-    $(this).trigger("checkval");
+	$(this).trigger("checkval");
   })
 });
 
