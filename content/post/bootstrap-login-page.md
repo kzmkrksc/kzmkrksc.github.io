@@ -26,7 +26,7 @@ Creating a login page might not seem challenging to many in the field. However, 
 
 Bootstrap is an amazing CSS framework and widely used in industry. Many of the login pages across the internet uses this CSS framework. You also might have seen floating labels on these forms across websites.
 
-Here I will share a simple pen that I have worked in my leisure times. This pen includes Bootstrap 3 only and no additional JS code is required. This form also have basic validations.
+Here I will share a simple pen that I have worked in my leisure times. This pen includes Bootstrap 3 only and no additional JS code is required. This form also has basic input validations.
 
 ### Login form with Floating labels - CSS only edition
 
