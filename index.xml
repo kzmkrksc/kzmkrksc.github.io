@@ -11,6 +11,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 24 Oct 2021 02:50:28 +0300</lastBuildDate><atom:link href="https://kzmkrksc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bootstrap Login Page with Floating Labels</title>
+      <link>https://kzmkrksc.github.io/post/bootstrap-login-page/</link>
+      <pubDate>Sun, 24 Oct 2021 02:50:28 +0300</pubDate>
+      
+      <guid>https://kzmkrksc.github.io/post/bootstrap-login-page/</guid>
+      <description>Prettify XML strings with JS and XSLT transformations</description>
+    </item>
+    
+    <item>
       <title>Pretty-printing XML with JS</title>
       <link>https://kzmkrksc.github.io/post/prettify-xml-with-js/</link>
       <pubDate>Sun, 24 Oct 2021 02:50:28 +0300</pubDate>
