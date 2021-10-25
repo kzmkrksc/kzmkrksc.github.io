@@ -2,7 +2,7 @@
 title: "Pretty-printing XML with JS"
 date: 2021-10-24T02:50:28+03:00
 description: "Prettify XML strings with JS and XSLT transformations"
-tags: ["Javscript", "XML", "XLST"]
+tags: ["Javascript", "XML", "XLST"]
 author: "kzmkrksc"
 showToc: true
 TocOpen: false
@@ -64,4 +64,4 @@ var prettifyXml = function (source) {
 };
 ```
 
-[Live Codepen Demo](https://codepen.io/kzmkrksc/pen/YzyBBON?editors=1111)
+[Live Codepen Demo](https://codepen.io/kzmkrksc/pen/YzyBBON)
